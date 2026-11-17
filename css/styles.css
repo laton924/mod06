@@ -102,3 +102,45 @@ footer a {
     text-decoration: none;
 }
 
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+
+}
+
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+.tab-desk {
+     display: block;
+}
+.mobile {
+     display: none;
+}
+
+/* Tablet Viewport: Style rule for header content */
+span.tab-desk {
+     display: inline;
+}
+
+/* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.5em;
+        border-right: 1px solid #e5e9fc;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.25em 0.5em;
+    }
+
+}
+
+nav li:last-child {
+        border-right: none;
+    }
+nav li a {
+        padding: 0.25em 0.5em;
+    }
